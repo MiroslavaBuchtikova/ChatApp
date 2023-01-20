@@ -1,0 +1,32 @@
+.msg-container {
+  width: 100%;
+  display: flex;
+  padding-top: 15px;
+}
+
+.scroll {
+  height: 100px;
+  overflow: auto;
+  @media (min-width: "768px") {
+    height: 500px;
+  }
+}
+
+.msg {
+  border-radius: 10px;
+  background-color: #555;
+  color: white;
+  padding: 5px;
+}
+.msg-wrapper{
+  max-width: 50%;
+  border-radius: 10px;
+  min-width: 30%;
+}
+.user {
+  padding-top: 3px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  font-size: small;
+  font-weight: bold;
+}

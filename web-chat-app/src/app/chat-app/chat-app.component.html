@@ -1,0 +1,58 @@
+<div class="card">
+  <div class="card-header">
+    <div class="d-flex justify-content-between align-items-center">
+      <h4>Let's chat</h4>
+    </div>
+  </div>
+  <div id="body" class="card-body scroll">
+    <ng-container *ngFor="let mObj of msgInboxArray">
+      <div class="msg-container">
+        <div>
+          <p class="user">
+            {{ mObj.user }}
+          </p>
+        </div>
+        <div class="msg-wrapper">
+          <div class="msg">
+            {{ mObj.msgText }}
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>
+
+<form [formGroup]="form">
+  <div class="form-row pt-2">
+    <div class="col-3">
+      <label for="username" class="sr-only">Username</label>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Your name"
+        formControlName="username"
+      />
+    </div>
+    <div class="col-8">
+      <div class="form-group mb-2">
+        <label for="message" class="sr-only">Message</label>
+        <input
+          type="text"
+          placeholder="Type message here"
+          class="form-control"
+          formControlName="msgText"
+          rows="3"
+        />
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="row pl-2">
+      <div class="d-flex justify-content-end pl-2">
+        <button (click)="onSubmit()" class="btn btn-primary mb-2">
+          <fa-icon [icon]="faPaperPlane"></fa-icon>
+        </button>
+      </div>
+      </div>
+    </div>
+  </div>
+</form>
