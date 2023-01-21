@@ -1,1 +1,4 @@
 .history/
+ChattingApp/obj/
+ChattingApp.Tests/obj/
+.idea/
