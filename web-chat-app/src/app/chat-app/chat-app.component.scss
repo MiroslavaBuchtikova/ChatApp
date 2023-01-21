@@ -1,9 +1,11 @@
+// styling for main chatting panel
 .msg-container {
   width: 100%;
   display: flex;
   padding-top: 15px;
 }
 
+// styling for scrollbar
 .scroll {
   height: 100px;
   overflow: auto;
@@ -12,6 +14,7 @@
   }
 }
 
+//styling for message
 .msg {
   border-radius: 10px;
   background-color: #555;
@@ -23,6 +26,8 @@
   border-radius: 10px;
   min-width: 30%;
 }
+
+//styling for user
 .user {
   padding-top: 3px;
   margin-bottom: 0px;

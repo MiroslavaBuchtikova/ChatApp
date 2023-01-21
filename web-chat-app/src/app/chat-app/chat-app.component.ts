@@ -36,10 +36,9 @@ export class ChatAppComponent implements OnInit {
       .subscribe((receivedObj: MessageDto) => {
         this.addToInbox(receivedObj);
       }); // calls the service method to get the new messages sent
-
-    let username = localStorage.getItem('username');
+    
     this.form = this.formBuilder.group({
-      username: [username, Validators.required],
+      username: ['', Validators.required],
       msgText: ['', Validators.required],
     });
   }
@@ -51,6 +50,7 @@ export class ChatAppComponent implements OnInit {
   }
   
   onSubmit() {
+    //Check if username and message is not empty
     if (this.form.invalid) {
       window.alert('Both fields are required.');
       return;
@@ -60,27 +60,30 @@ export class ChatAppComponent implements OnInit {
   }
   
   sendMessage(){
+    //Create message
     let msgDto = new MessageDto();
     msgDto.user = this.f.username.value;
     msgDto.msgText = this.f.msgText.value;
+    
+    //Send message
     this.chatService.broadcastMessage(msgDto);
 
-    this.form.controls['username'].disable();
+    //Clean text message
     this.f.msgText.setValue('');
+    
+    //Scroll whole chat panel so you'll see latest message
     window.setInterval(function () {
       var elem = document.getElementById('body');
       elem!.scrollTop = elem!.scrollHeight;
     }, 5000);
   }
 
+  //Add this message to msgInboxArray
   addToInbox(obj: MessageDto) {
     let newObj = new MessageDto();
     newObj.user = obj.user;
     newObj.msgText = obj.msgText;
     newObj.dateTime = new Date().toLocaleString();
     this.msgInboxArray.push(newObj);
-  }
-  counter(i: number) {
-    return new Array(i);
   }
 }
