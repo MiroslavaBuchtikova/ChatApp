@@ -1,6 +1,4 @@
-import { SentimentModel } from "./sentiment";
-
-export class MessageDto extends SentimentModel {
+export class MessageDto{
   public user: string = '';
   public msgText: string = '';
   public dateTime: string = '';

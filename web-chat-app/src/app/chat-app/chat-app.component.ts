@@ -13,7 +13,6 @@ import {
   Validators,
 } from '@angular/forms';
 import { MessageDto } from '../models/message';
-import { SentimentResponseModel } from '../models/sentimentResponse';
 
 @Component({
   selector: 'app-chat-app',

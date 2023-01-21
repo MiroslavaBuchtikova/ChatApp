@@ -5,9 +5,7 @@
 export const environment = {
   production: false,
   chatServiceBaseUrl: 'https://localhost:7265/api/chat',
-  chatSockedBaseUrl: 'https://localhost:7265/chatsocket',
-  userUrl: 'https://localhost:7265',
-  analyzeServiceBaseUrl: 'https://analyzesentimentapp.azurewebsites.net/api/AnalyzeSentimentFunction'
+  chatSockedBaseUrl: 'https://localhost:7265/chatsocket'
 };
 
 /*
