@@ -1,3 +1,5 @@
+//Good to know https://www.w3schools.com/css/
+
 // styling for main chatting panel
 .msg-container {
   width: 100%;
@@ -34,4 +36,34 @@
   padding-right: 10px;
   font-size: small;
   font-weight: bold;
+}
+
+//styling for left/right messages
+//before you start, play game: http://www.flexboxfroggy.com
+
+.msg-container.sentMessage {
+  justify-content: flex-start;
+}
+
+.msg-container.receivedMessage {
+   justify-content: flex-start;
+}
+
+.msg-container.sentMessage>div>.msg {
+  background-color: #555;
+  color: white;
+  padding: 5px;
+}
+
+.msg-container.receivedMessage>div>.msg {
+  background-color: #555;
+  color: white;
+  padding: 5px;
+}
+
+//styling
+.datetime {
+  font-size: smaller;
+  padding-right: 10px;
+  font-weight: lighter;
 }

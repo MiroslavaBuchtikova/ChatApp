@@ -6,56 +6,140 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30e959b-4659-44fd-aa08-fa5e9495949d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ChattingApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChattingApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Controllers/ChatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/Controllers/ChatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Controllers/UserController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/DbAccess/ChatMessage.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/DbAccess/ChattingDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Migrations/20230119210454_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Migrations/20230119210454_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Migrations/ChattingDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Model/AuthResult.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Model/LoginModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Model/RegisterModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Services/Auth/IUserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Services/Auth/JwtSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/Services/Auth/UserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChattingApp/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-alert/app-alert.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-alert/app-alert.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-alert/app-alert.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-alert/app-alert.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-login/app-login.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-login/app-login.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-login/app-login.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-login/app-login.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-register/app-register.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-register/app-register.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-register/app-register.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-register/app-register.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/ChattingApp.Tests.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ChattingApp.Tests.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ChattingApp.Tests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ChattingApp.Tests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ChattingApp.Tests.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/Microsoft.TestPlatform.CommunicationUtilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/Microsoft.TestPlatform.CoreUtilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/Microsoft.TestPlatform.CrossPlatEngine.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/Microsoft.TestPlatform.Utilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/NuGet.Frameworks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/testhost.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/xunit.abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/xunit.assert.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/xunit.core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/xunit.execution.dotnet.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/xunit.runner.reporters.netcoreapp10.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/xunit.runner.utility.netcoreapp10.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/ChattingApp.Tests.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/ChattingApp.Tests.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/ChattingApp.Tests.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ChattingApp.Tests.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ChattingApp.Tests.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ChattingApp.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ChattingApp.Tests.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ChattingApp.Tests.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ChattingApp.Tests.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ChattingApp.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ChattingApp.Tests.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ChattingApp.Tests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ChattingApp.Tests.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ChattingApp.Tests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/ref/ChattingApp.Tests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net6.0/refint/ChattingApp.Tests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net7.0/ChattingApp.Tests.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net7.0/ChattingApp.Tests.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net7.0/ChattingApp.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net7.0/ChattingApp.Tests.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/Debug/net7.0/ChattingApp.Tests.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.Tests/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp/ChattingApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/ChattingApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp/Hub/ChatHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/Hub/ChatHub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp/bin/Debug/net7.0/ChattingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/bin/Debug/net7.0/ChattingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp/bin/Debug/net7.0/ChattingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/bin/Debug/net7.0/ChattingApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp/obj/Debug/net7.0/ChattingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/obj/Debug/net7.0/ChattingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp/obj/Debug/net7.0/ChattingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/obj/Debug/net7.0/ChattingApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp/obj/Debug/net7.0/ref/ChattingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/obj/Debug/net7.0/ref/ChattingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp/obj/Debug/net7.0/refint/ChattingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/obj/Debug/net7.0/refint/ChattingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChattingApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ChattingApp/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/chat-app/chat-app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/app/chat-app/chat-app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/chat-app/chat-app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/app/chat-app/chat-app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/chat-app/chat-app.component.spec.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/chat-app/chat-app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/app/chat-app/chat-app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/helper/jwt-interceptor.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/models/alert.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/models/authResult.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/models/login.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/models/message.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/app/models/message.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/models/register.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/models/sentence.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/models/sentiment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/models/sentimentResponse.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/models/text.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/services/account.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/services/alert.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/services/auth-guard.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/services/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-chat-app/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-chat-app/src/app/services/chat.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-chat-app/src/app/services/chat.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,17 +158,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Applications/Rider.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/Rider.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ChattingApp">
     <configuration name="ChattingApp" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ChattingApp/ChattingApp.csproj" />

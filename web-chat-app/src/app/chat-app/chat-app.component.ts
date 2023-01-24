@@ -36,7 +36,7 @@ export class ChatAppComponent implements OnInit {
       .subscribe((receivedObj: MessageDto) => {
         this.addToInbox(receivedObj);
       }); // calls the service method to get the new messages sent
-    
+
     this.form = this.formBuilder.group({
       username: ['', Validators.required],
       msgText: ['', Validators.required],
@@ -48,29 +48,30 @@ export class ChatAppComponent implements OnInit {
   get f() {
     return this.form.controls;
   }
-  
+
   onSubmit() {
     //Check if username and message is not empty
     if (this.form.invalid) {
       window.alert('Both fields are required.');
       return;
     }
-   
+
+    //If valid, send message
     this.sendMessage();
   }
-  
+
   sendMessage(){
     //Create message
     let msgDto = new MessageDto();
     msgDto.user = this.f.username.value;
     msgDto.msgText = this.f.msgText.value;
-    
-    //Send message
+
+    //Send message, implementation of broadcastMessage you can see under services/chat.service.ts
     this.chatService.broadcastMessage(msgDto);
 
     //Clean text message
     this.f.msgText.setValue('');
-    
+
     //Scroll whole chat panel so you'll see latest message
     window.setInterval(function () {
       var elem = document.getElementById('body');

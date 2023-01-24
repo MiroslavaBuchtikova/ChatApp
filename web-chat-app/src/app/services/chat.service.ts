@@ -12,8 +12,7 @@ export class ChatService {
   private connection: any = new signalR.HubConnectionBuilder()
     .withUrl(environment.chatSockedBaseUrl, {
       skipNegotiation: true,
-      transport: signalR.HttpTransportType.WebSockets,
-      accessTokenFactory:()=> this.token
+      transport: signalR.HttpTransportType.WebSockets
     }) // mapping to the chathub as in startup.cs
     .configureLogging(signalR.LogLevel.Information)
     .build();
@@ -21,12 +20,12 @@ export class ChatService {
 
   private receivedMessageObject: MessageDto = new MessageDto();
   private sharedObj = new Subject<MessageDto>();
-  token: string | Promise<string> = localStorage.getItem('jwt')!;
 
   constructor(private http: HttpClient) {
     this.connection.onclose(async () => {
       await this.start();
     });
+    //Start listening messages
     this.connection.on('ReceiveOne', (user: string, message: string) => {
       this.mapReceivedMessage(user, message);
     });
